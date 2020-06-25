@@ -5,4 +5,4 @@ You can use this tool from http://gotmemes.github.io/dmtcheat/. The goal of this
 You can contribute to this project mostly by adding words to the _wordlist-xxxx.txt_ files if you notice any are missing. Don't forget to separate each with a comma except after the last word. No need to add them in alphabetical order.
 
 # Credit
-Stolen from Croutonix to more easily update words, mostly for Mineplex, but sometimes Hypixel.
+Stolen from Croutonix to more easily update words, mostly for Mineplex.
