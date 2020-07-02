@@ -242,7 +242,7 @@ function findWords() {
 			var match = true;
 			for (var j = 0; j < word.length; j++) {
 				var char = template.charAt(j);
-				if (!(char == "_" && !(word.charAt(j) == " ") || char == word.charAt(j))) {
+				if (!(char == '_' && !(word.charAt(j) == ' ') || char == word.charAt(j))) { //Changed for Java Compatibility
 					match = false;
 					break;
 				}
