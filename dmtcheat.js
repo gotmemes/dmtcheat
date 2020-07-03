@@ -63,9 +63,6 @@ function loadWordLists() {
 		rawFile.onreadystatechange = function() {
 			if (rawFile.readyState === 4) {
 				if (rawFile.status === 200 || rawFile.status === 0) {
-					if (s==0){ //Bug Fix for extra character added on wordlist-mineplex.txt
-						rawFile.responseText.substring(0,rawFile.responseText.length-10);
-					}
 					servers[s].wordList = rawFile.responseText.split(",").sort();
 				}
 			}
